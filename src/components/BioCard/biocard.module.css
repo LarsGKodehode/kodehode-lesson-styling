@@ -1,0 +1,23 @@
+/* this will be for the biocard only */
+
+.bioCard {
+  background-color: var(--color-primary);
+}
+
+.picture {
+  width: 150px;
+  height: 150px;
+}
+
+.skillBadges {
+  display: flex;
+}
+
+.placeholder {
+  width: 25px;
+  height: 25px;
+
+  background-color: #747bff;
+
+  margin: .5rem;
+}

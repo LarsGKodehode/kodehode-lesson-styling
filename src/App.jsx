@@ -1,6 +1,5 @@
 import { DiJavascript } from 'react-icons/di'
-
-import './App.css'
+import BioCard from './components/BioCard/BioCard'
 
 function App() {
   return (
@@ -18,28 +17,10 @@ function App() {
 
       </BioCard>
 
+      <div className='placeholder'></div>
+
     </div>
   )
 }
 
 export default App
-
-
-function BioCard(props) {
-  console.log(props)
-
-  return (
-    <div className='bio-card'>
-      <img className='picture' src={props.imgSrc} alt="" />
-
-      <div className='description'>
-        <h3>Name: <span>{props.name}</span></h3>
-        <h3>Short: <span>{props.short}</span></h3>
-      </div>
-
-      <div className='skill-badges'>
-        {props.children}
-      </div>
-    </div>
-  )
-}

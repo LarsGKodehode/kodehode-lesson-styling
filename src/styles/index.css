@@ -1,0 +1,5 @@
+/* We keep this for overriding defaul HTML styling */
+
+body {
+  margin: 0px;
+}
