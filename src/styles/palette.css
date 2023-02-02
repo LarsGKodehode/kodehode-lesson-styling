@@ -1,6 +1,9 @@
 /* Here we will put all of our colors */
 
 :root {
-  --color-primary: #4E7992;
-  --color-secondary: #3D3280;
+  --color-primary-400: #7c8f9b;
+  --color-primary-500: #4E7992;
+  --color-primary-600: #214458;
+
+  --color-secondary-500: #3D3280;
 }
