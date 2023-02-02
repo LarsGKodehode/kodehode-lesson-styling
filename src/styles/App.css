@@ -1,0 +1,9 @@
+/* Layout styling for our main page/application */
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 100vh;
+}
